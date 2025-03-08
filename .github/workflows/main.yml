@@ -21,4 +21,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Cyberdyme:$HF_TOKEN@//huggingface.co/spaces/Cyberdyme/Agentic-Ai-Project main        
+        run: git push --force https://Cyberdyme:$HF_TOKEN@huggingface.co/spaces/Cyberdyme/Agentic-Ai-Project main        
